@@ -1,0 +1,784 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.container{ 
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}  
+.header-logo{
+    height:100px;
+    width:100px;
+}
+#header{
+    padding-left: 150px;
+    display: inline-block;
+    padding-top: 30px;
+}
+span{
+    padding-top: 15px;
+}
+#logo{
+    text-decoration: none;
+    color: inherit;
+    font-size: xxx-large;
+    color: white;
+    height: 200px;
+    padding-left: 10px;
+}
+.logo :active, .logo:link , .logo:visited , .logo:focus{
+    color: white;
+}
+.navigation-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ 
+}
+
+.header-items{
+    color: #ffffff;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 800px;
+}
+
+
+.nine,.ten{
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/Asset_4_1.png?v=1710417495");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.navigation-bar{
+    position: sticky;
+    display: flex;
+    background: transparent;
+    top: 0px;
+    background-color: rgba(84, 67, 61, 0.851);
+    height: 150px;
+    opacity: 1;
+    z-index: 1100;
+}
+.icons{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 100px;
+    
+}
+li{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+    font-size: 50px;
+   
+    display:inline-block;
+
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.one{
+    background-color: red;
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/web.jpg");
+    background-size:cover;
+
+
+}
+
+.two{
+
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/mens_web.jpg?format=webp&v=1722512767&width=1600" );
+    background-size:cover;
+}
+.three{
+    background-color: green;
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/11_590391a4-3ef0-48b3-83ba-6d3b9327a029.jpg?format=webp&v=1722601403&width=1600");
+    background-size: cover;
+}
+.four{
+    background-color: yellow;
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/kids-web.png?format=webp&v=1715756974&width=1600");
+    background-size: cover;
+}
+.five{
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/web_2.png?format=webp&v=1720605825&width=1600");
+    background-size: cover;
+}
+.six{
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/chandigarh_web.jpg?format=webp&v=1720702771&width=1600");
+    background-size: cover;
+}
+.seven{
+    background-image: url("https://www.theshopindia.com/cdn/shop/files/youcareweb.png?format=webp&v=1716971843&width=1600");
+    background-size: cover;
+}
+
+
+
+.eight{
+    background-size: cover;
+}
+.vid1{
+    height: 100vh;
+    background-size: cover;
+
+}
+.nine{
+}
+.ten{
+    height: 100vh;
+
+}
+
+a{
+    color: white;
+}
+.shop {
+    color: #8B4513; 
+    padding: 25px;
+    font-family: "Merriweather", serif;;
+    text-align: center;
+    font-size:medium;
+    font-style: normal; 
+    font-weight: lighter;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.flex{
+    height: 463px; 
+    width: 480px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}   
+.flex img {
+    display: flex;
+    width: 470px;
+    height: 360px;
+    border-radius: 30px;
+    
+}
+
+.flex h3 {
+    font-size: 1.5em;
+    color:#000;
+    text-align: left;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+    font-weight: lighter;
+}
+
+.flex p {
+    font-size: 1em;
+    color: #8B0000;
+    text-decoration: none ;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: left;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+    font-size: larger;
+}
+
+.view{
+    margin-left: 600px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(90, 74, 66);
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 50px;
+    font-size: larger;
+    color: #ffffff;
+    border-radius: 30px;
+    font-family: "Merriweather" ;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.pp{
+    background-color: rgb(84, 67, 61);
+    color:#fff;
+     min-width: 500px;
+    z-index: 1000;
+    position: relative;
+    right: 290px;
+    top: 40px;
+    line-height: 26px;
+    font-family: var(--font-family-400),sans-serif;
+    font-size: 17px;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 100px;
+   
+   
+   
+}
+.vid2{
+   min-width: 1100px;
+    min-height: 300px;
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: cover;
+  position: relative;
+  right: 290px;
+  
+    
+
+}
+#parrot{
+    
+        height: 100%;
+        width: 40%;
+        position: relative;
+        left: 270px;
+        opacity: 0.4;
+    
+    }
+    #build{
+        height: 23%;
+        position: relative;
+        bottom:275px;
+        left: 1020px;
+    }
+    #foot{
+       height: 290px;
+       min-width: 1700px;
+       position: relative;
+       right: 72px;
+       top: 100px;
+    
+    }
+    .text {
+        font-size: x-large;
+        font-weight: lighter;
+        color: rgb(84, 67, 61);
+        position: relative;
+        bottom: 570px;
+        left: 699px;
+        
+    }
+    .text2 {
+        font-size: x-large;
+        font-weight: lighter;
+        color: rgb(84, 67, 61);
+        position: relative;
+        bottom: 560px;
+        left: 400px;
+        
+    }
+    .text3 {
+        font-size: x-large;
+        font-weight: lighter;
+        color: rgb(84, 67, 61);
+        position: relative;
+        bottom: 550px;
+        left: 660px;
+        
+    }
+    .text4{
+        font-size:40px;
+        font-family:"Merriweather";
+        font-weight:lighter;
+        letter-spacing: .01em;
+        color: #ffffff;
+        position: relative;
+        bottom: 470px;
+        left: 80px;
+
+    }
+    .text5 {
+        font-size:x-large;
+        font-family:"Merriweather";
+        font-weight: lighter;
+        color: #ffffff;
+        position: relative;
+        bottom: 460px;
+        left: 80px;
+    }
+    #store{
+        height: 7%;
+        position: relative;
+        top: 100px;
+        right: 590px;
+    }
+    #bird {
+        height: 10%;
+        position: relative;
+        top: 60px;
+        right: 580px;
+    }
+    .text6 {
+        font-size:25px;
+        font-style: italic;
+        font-weight: 100;
+        color:rgb(84, 67, 61);
+        position: relative;
+        bottom: 457px;
+        left: 1170px;
+
+    }
+    #pen {
+        height: 10%;
+        position: relative;
+        top: 160px;
+        right: 665px;
+    }
+    .text7 {
+        font-size:25px;
+        
+        font-style: italic;
+        font-weight: 100;
+        color:rgb(84, 67, 61);
+        position: relative;
+        bottom: 380px;
+        left: 1170px;
+
+    }
+    .text8 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #ffffff;
+        position: relative;
+        bottom: 550px;
+        left: 600px;
+    }
+    .text9 {
+        font-size: 20px;
+        color: rgb(84, 67, 61);
+        line-height: 19.01px;
+        letter-spacing: .02em;
+        padding-left: 70px;
+        padding-top: 8px;
+        padding-right: 70px;
+        padding-bottom: 8px;
+        background-color: #ffffff;
+        width: 50%;
+        border-radius: 4px;
+        position: relative;
+        bottom: 480px;
+        right: 180px;
+    }
+    .dropdown {
+        position: relative;
+        bottom: 506px;
+        left:215px;
+        
+        height: 10px;
+        max-width: 50px;
+        display: inline-block;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Dropdown button */
+    .dropdown button {
+    
+        background: transparent;
+        opacity: 0.8;
+        border: 1px solid rgba(255, 255, 255, 0.9);
+        border-radius: 4px;
+        padding: 10px;
+        padding-right: 150px;
+        font-size: 17px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+    .dropdown button::after {
+        content: " ▼";
+        font-size: 12px;
+        margin-left: 5px;
+        color: #ffffff;
+        position: relative;
+        left: 90px;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #be9f79;
+        min-width: 160px;
+        padding-right: 130px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    /* Dropdown links */
+    .dropdown-content a {
+        color: rgb(255, 255, 255);
+        width: 60px;
+        padding: 12px ;
+        text-align: initial;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .dropdown-content a img {
+        margin-right: 10px;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+   
+    /* Dropdown container */
+    .reach {
+        position: relative;
+        bottom: 380px;
+        left: 150px;
+        display: inline-block;
+
+    }
+
+    /* Dropdown button */
+    .reach button {
+        background-color: transparent;
+        border: none;
+        font-size: 17px;
+        font-weight: 100;
+        color: #ffffff; /* Color similar to the text in the image */
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Add a small arrow (▼) */
+    .reach button::after {
+        content: " ▼";
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .reach-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(201, 190, 171, 0.7); /* Semi-transparent background */
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 4;
+        padding: 10px;
+    }
+
+    /* Links inside the dropdown */
+    .reach-content a {
+        color: #3e2e28; /* Darker color for the text */
+        padding: 8px 12px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+    }
+
+    /* Change color on hover */
+    .reach-content a:hover {
+        background-color: #e2d5c6; /* Light color on hover */
+    }
+
+    /* Show the dropdown menu on hover */
+    .reach:hover .reach-content {
+        display: block;
+    }
+
+
+    .help {
+        position: relative;
+        bottom: 380px;
+        left: 300px;
+        display: inline-block;
+    }
+
+    /* Dropdown button */
+    .help button {
+        background-color: transparent;
+        border: none;
+        font-size: 17px;
+        color: #ffffff; /* Color similar to the text in the image */
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Add a small arrow (▼) */
+    .help button::after {
+        content: " ▼";
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .help-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(201, 190, 179, 0.7); /* Semi-transparent background */
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        padding: 10px;
+    }
+
+    /* Links inside the dropdown */
+    .help-content a {
+        color: #3e2e28; /* Darker color for the text */
+        padding: 8px 12px;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+    }
+
+    /* Change color on hover */
+    .help-content a:hover {
+        background-color: #e2d5c6; /* Light color on hover */
+    }
+
+    /* Show the dropdown menu on hover */
+    .help:hover .help-content {
+        display: block;
+    }
+
+
+
+    /* Container holding the dropdown */
+.services {
+    position: relative;
+    bottom: 380px;
+    right: 360px;
+    display: inline-block;
+  }
+  
+  /* Dropdown button */
+  .servicesbtn {
+    background-color: transparent; /* Background color similar to the image */
+    color: white;
+    padding: 10px 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    align-items: center; 
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .services-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(201, 190, 179, 0.7); /* Semi-transparent background */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+  }
+  
+  /* Links inside the dropdown */
+  .services-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Show the dropdown menu on hover */
+
+  /* Change color of dropdown links on hover */
+  .services-content a:hover {
+    background-color: #ddd;
+  }
+  .services:hover .services-content {
+    display: block;
+  }
+  .down{
+    padding-top: 30px;
+    font-size: medium;
+  }
+  .sizee{
+    font-weight: lighter;
+  }
+
+  @media (min-width: 1024px) {
+    .container1 {
+        flex-wrap: nowrap; /* No wrapping on large screens */
+    }
+
+    .flex {
+        width: 30%; /* Adjusting the width for larger screens */
+        margin: 20px;
+    }
+
+    .header-items {
+        font-size: 24px;
+    }
+
+    .shop {
+        font-size: xx-large; /* Larger text on big screens */
+    }
+}
+
+/* Medium Devices (Tablets, 768px to 1023px) */
+@media  and (max-width: 600px) {
+    .container1 {
+        flex-wrap: wrap; /* Allow wrapping on tablets */
+        justify-content: space-between;
+    }
+
+    .flex {
+        width: 45%; /* Adjust width for tablets */
+        margin-bottom: 20px;
+    }
+
+    .header-items {
+        left: 600px; /* Adjust for tablet size */
+    }
+
+    .shop {
+        font-size: large; /* Adjust font size for readability */
+    }
+
+    .navigation-bar {
+        height: 120px; /* Reduce height */
+    }
+
+    .view {
+        margin-left: 400px; /* Adjust button position */
+    }
+}
+
+/* Small Devices (Mobile, 480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+    .container1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flex {
+        width: 80%;
+        margin: 10px 0; /* Adjust width for smaller screens */
+    }
+
+    .header-items {
+        left: 0;
+        text-align: center; /* Center items */
+        font-size: 20px;
+    }
+
+    .shop {
+        font-size: medium;
+        padding: 20px; /* Adjust padding */
+    }
+
+    .view {
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    .navigation-bar {
+        height: 100px; /* Reduce height */
+    }
+
+    .dropdown button {
+        padding-right: 100px; /* Adjust button padding */
+    }
+}
+
+/* Extra Small Devices (Mobile, less than 480px) */
+@media (max-width: 479px) {
+    .container1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flex {
+        width: 100%; /* Full width for very small screens */
+        margin: 5px 0;
+    }
+
+    .header-items {
+        left: 0;
+        text-align: center; /* Center items */
+        font-size: 16px;
+    }
+
+    .shop {
+        font-size: small; /* Smaller font size */
+    }
+
+    .view {
+        margin-left: 10px;
+        width: 150px;
+    }
+
+    .navigation-bar {
+        height: 80px; /* Reduce height */
+    }
+
+    .dropdown button {
+        padding-right: 80px; /* Adjust button padding */
+    }
+
+    /* Adjust text and dropdown positions */
+    .text, .text2, .text3, .text6, .text7 {
+        left: 20px; /* Align text to the left */
+        font-size: 14px; /* Smaller font */
+    }
+
+    .pp {
+        width: 100%; /* Full width for pp section */
+        padding-left: 20px;
+        padding-right: 20px;
+        right: 0;
+    }
+
+    .vid2, .vid1 {
+        width: 100%; /* Full width for videos */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    #parrot, #build, #foot, #store, #bird, #pen {
+        width: 100%; /* Full width for images */
+        height: auto;
+        position: static; /* Remove position adjustments */
+    }
+}
+  
